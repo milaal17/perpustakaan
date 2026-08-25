@@ -4,12 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class visitor extends Model
+class extension extends Model
 {
     protected $fillable = [
-        'name',
-        'email',
-        'phone',
-        'tanggal_kunjungan',
+        'id_peminjaman',
+        'batas_peminjaman}baru',
+        'keterangan',
     ];
 }
