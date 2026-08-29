@@ -18,8 +18,8 @@ return new class extends Migration
             $table->string('penerbit', 100);
             $table->year('tahun_terbit');
             $table->string('kategori', 100);
-            $table->string('stock');
-            $table->longText('deskription');
+            $table->string('stok');
+            $table->longText('deskripsi');
             $table->string('foto/sampul')->nullable();
             $table->timestamps();
         });

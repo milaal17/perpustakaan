@@ -12,7 +12,8 @@ class book extends Model
         'penerbit',
         'tahun_terbit',
         'kategori',
-        'description',
+        'stok',
+        'deskripsi',
         'foto/sampul',
     ];
 }

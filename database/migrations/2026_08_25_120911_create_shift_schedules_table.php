@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('shift_schedules', function (Blueprint $table) {
             $table->id();
             $table->string('nama_penjaga', 100);
-            $table->date('tanggal_shif');
+            $table->date('tanggal_sif');
             $table->dateTime('jam_mulai');
             $table->dateTime('jam_selesai');
             $table->string('status_kehadiran', 20);

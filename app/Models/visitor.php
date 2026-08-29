@@ -10,6 +10,6 @@ class visitor extends Model
         'name',
         'email',
         'phone',
-        'tanggal_kunjungan',
+        'visit_date',
     ];
 }
